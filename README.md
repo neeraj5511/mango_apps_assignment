@@ -3,8 +3,8 @@
 ### Clone the repository
 
 ```shell
-git clone git@github.com:neeraj5511/mangoapps_assignment.git
-cd mangoapps_assignment
+git clone git@github.com:neeraj5511/mango_apps_assignment.git
+cd mango_apps_assignment
 ```
 
 ### Check your Ruby version
