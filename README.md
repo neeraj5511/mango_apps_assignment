@@ -1,24 +1,42 @@
-# README
+## Install
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Clone the repository
 
-Things you may want to cover:
+```shell
+git clone git@github.com:neeraj5511/mangoapps_assignment.git
+cd mangoapps_assignment
+```
 
-* Ruby version
+### Check your Ruby version
 
-* System dependencies
+```shell
+ruby -v
+```
 
-* Configuration
+The ouput should start with something like `ruby 3.0.0`
 
-* Database creation
+If not, install the right ruby version using [rbenv](https://github.com/rbenv/rbenv) (it could take a while):
 
-* Database initialization
+```shell
+rbenv install 3.0.0
+```
 
-* How to run the test suite
+### Install dependencies
 
-* Services (job queues, cache servers, search engines, etc.)
+Using [Bundler](https://github.com/bundler/bundler)
 
-* Deployment instructions
+```shell
+bundle
+```
 
-* ...
+### Initialize the database
+
+```shell
+rails db:create db:migrate db:seed
+```
+
+## Serve
+
+```shell
+rails s
+```
